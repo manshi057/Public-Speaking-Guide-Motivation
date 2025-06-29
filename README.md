@@ -14,4 +14,4 @@ This is a responsive and elegant **Public Speaking web interface** created using
 ## 📂 Project Structure
 
 
-I have created this interface beacause i love to speak  and in future want other person to find their voice
+I have created this interface beacause i love to speak  and in future want other person too to find their voice
