@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+
+}
+
+#header{
+    height: 80px;
+    background-color:black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     position: fixed;
+    z-index: 1000;
+
+}
+
+#logo{
+    height: 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo img{ 
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.Text{
+    color: white;
+    font-weight:bold;
+    font-size: x-large;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Text:hover{
+    color: rgba(135, 6, 6, 0.829);
+}
+
+#main{
+    margin-top: 90px;
+    position: relative;
+}
+
+.about{
+    top:120px;
+    left:50px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 60px;
+    text-align: center;
+   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(240, 255, 255, 0.445);
+}
+
+.about p{
+    word-spacing: 5px;
+    line-height: 1.2;
+}
+
+.Tips{
+    top:650px;
+    left:50px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: rgba(240, 255, 255, 0.445);
+    box-shadow: 2px 2px 20px rgba(194, 184, 184, 0.5);
+
+}
+
+.Tips ul{
+line-height: 1.6;
+word-spacing: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.image-img {
+  width: 1000px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 300px;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quote {
+  background-color: #2c6f94;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 600px;
+  margin-right: 100px;
+  margin-left: 38px;
+  word-spacing: 5px;
+  line-height: 1.8;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(16, 149, 190, 0.811);
+    color: white;
+    padding: 10px;
+}
